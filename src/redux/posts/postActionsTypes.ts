@@ -1,0 +1,3 @@
+export const FETCH_POST_STATE = 'FETCH_POST_STATE';
+export const FETCH_FULL_POST = 'FETCH_FULL_POSTS';
+export const CREATE_NEW_POST = 'CREATE_NEW_POST';

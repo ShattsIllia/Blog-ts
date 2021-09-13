@@ -1,0 +1,49 @@
+.fullPost__wrappper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FullPost{
+    padding: 2rem!important;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    gap: .5rem;
+}
+.fullPost__btn{
+    padding: 0!important;
+}
+
+.likes{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.likes span{
+    color: rgb(252, 47, 47);
+    font-size: 1.5rem;
+}
+
+.likes:active span{
+    text-shadow: 0 0 2px #333, 0 0 2px #333; 
+}
+.btnWrapper{
+    display: flex;
+    gap: 1rem;
+}
+.updateWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.updateTitle{
+    font-size: 2rem;
+}
+.btnWrapper{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}

@@ -1,0 +1,31 @@
+.signButtons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+}
+.sideBarButtonWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem
+}
+
+.sideBarButtonWrapper button{
+    width: 10rem;
+}
+
+@media (max-width: 900px) {
+    .signButtons {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+   
+  .menuBtn{
+      display: none!important;
+  }
+
+}
